@@ -1,0 +1,25 @@
+
+# Data and matrices — too large for GitHub
+
+*.csv
+
+*.parquet
+
+data/
+
+outputs/
+
+data_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+__pycache__/
+
+# Python
+
+*.pyc
+
+.env
+
