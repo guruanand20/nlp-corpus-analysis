@@ -5,10 +5,6 @@
 
 *.parquet
 
-data/
-
-outputs/
-
 data_cache/
 
 # Jupyter
