@@ -12,13 +12,16 @@
 
 # arXiv dataset (cs.CL category, 1990–2021).
 
+The entire data with time label: https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDzMRQhPytASaF8S3e0vVnrAXcoae0Da-vz8gItPO36B9I?e=cJaeVh 
+The NLP data with time and technique label：https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDakmgwzEzLT7eYQWwrlqfgARaJ7qcYnxv3-tBJCDbiGKk?e=RJxSNY
+
 # 
 
 # \### Team
 
 # 
 
-# | Rui Liu         | TF-IDF Representation | 01\_representation.ipynb |
+# | Rui Liu         | EDA, TF-IDF Representation | 01\_representation.ipynb |
 
 # | Dekai Fan       | SBERT \& LDA Representation | 01\_representation.ipynb |
 
