@@ -14,7 +14,7 @@
 
 The entire data with time label: https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDzMRQhPytASaF8S3e0vVnrAXcoae0Da-vz8gItPO36B9I?e=cJaeVh 
 The NLP data with time and technique label：https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDakmgwzEzLT7eYQWwrlqfgARaJ7qcYnxv3-tBJCDbiGKk?e=RJxSNY
-
+The Overleaf report project's zip file: https://uob-my.sharepoint.com/:u:/r/personal/fx25224_bristol_ac_uk/Documents/tb2/AI%26text/CWdata/report_resource.zip?csf=1&web=1&e=Idp8ox
 # 
 
 # \### Team
@@ -71,9 +71,7 @@ The NLP data with time and technique label：https://uob-my.sharepoint.com/:x:/g
 
 # \### How to Run
 
-# 1\. Install dependencies: `pip install -r requirements.txt`
+# 1\. Download the shared data folder and place files in `/data` and `/outputs`
 
-# 2\. Download the shared data folder and place files in `/data` and `/outputs`
-
-# 3\. Run notebooks in order: 00 → 01 → 02/03 → 04
+# 2\. Run notebooks in order: 00 → 01 → 02/03 → 04
 
