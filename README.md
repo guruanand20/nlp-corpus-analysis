@@ -18,7 +18,7 @@ Contributions of this project are students at University of Bristol.
 | Member 2 | Dekai Fan       | SBERT & LDA Representation (`NB01.ipynb`, `NB01_all data.ipynb`) | Intro §1 (available data), Methods §2.3 (SBERT & LDA), Eval §3.2 (SBERT & LDA results), Conclusions §4 (SBERT/LDA finding) |
 | Member 3 | Karen Coutinho  | Top-N Keyword Shift Analysis (`02_comparison.ipynb`,`NB02.ipynb`) | Intro §1 (requirements for a good solution), Methods §2.4 (keyword shift), Eval §3.4 (keyword shift results), Conclusions §4 (keyword shift finding) |
 | Member 4 | Guruanand Reddy | Cosine Distance Analysis (`NB02.ipynb.ipynb`)                | Intro §1 (dataset examples), Methods §2.5 (cosine distance), Eval §3.5 (cosine distance results), Conclusions §4 (cosine distance finding) |
-| Member 5 | Chang Gao       | PCA & UMAP Trajectory Visualisation (`03_pca_trajectory.ipynb`) | Abstract, Methods §2.6 (dimensionality reduction), Eval §3.6 (discussion & limitations), Conclusions §4 (opening & closing paragraphs) |
+| Member 5 | Chang Gao       | PCA & UMAP Trajectory Visualisation (`03_pca_trajectory.ipynb`) | Abstract, Methods §2.6 (dimensionality reduction), Eval §3.6 (evaluation & discussion), Conclusions §4 (opening & closing paragraphs) |
 
 
 
