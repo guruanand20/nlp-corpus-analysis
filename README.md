@@ -1,77 +1,35 @@
-# \# NLP Corpus Analysis
+# NLP Corpus Analysis
+## Overview
+This project analyses how the focus, framing and vocabulary of NLP research has changed over time, using scientific abstracts from the arXiv dataset (cs.CL and cmp-lg categories, 1994–2021)
 
-# \## Text Analytics Coursework — Comparative Corpus Analysis
+The analysis is structured around two axes:
+- Axis 1 Text Representation: compares four methods (TF-IDF Unigrams, TF-IDF Bigrams, SBERT, LDA) to examine how representational choices shape what patterns become visible
 
-# 
+- Axis 2 Comparison Method: contrasts Top-N Keyword Shift analysis with Cosine Distance to determine what kind of change each method can detect and explain
 
-# \### Overview
 
-# This project analyses how the focus, framing and communication of NLP 
+### Team & Contributions
 
-# research has changed over time using scientific abstracts from the 
+Contributions of this project are students at University of Bristol.
 
-# arXiv dataset (cs.CL category, 1990–2021).
+| Member   | Name            | Notebook Role                                                | Report Sections                                              |
+| -------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Member 1 | Rui Liu         | EDA, Preprocessing, TF-IDF Representation (`EDA + Add year.ipynb.ipynb`,`EDA + select NLP + year segments .ipynb`,`NB01.ipynb`,`NB01_all data.ipynb`) | Intro §1 (task & motivation), Methods §2.1 (preprocessing & TF-IDF baseline), Eval §3.1 (TF-IDF results), Conclusions §4 (TF-IDF finding) |
+| Member 2 | Dekai Fan       | SBERT & LDA Representation (`NB01.ipynb`, `NB01_all data.ipynb`) | Intro §1 (available data), Methods §2.3 (SBERT & LDA), Eval §3.2 (SBERT & LDA results), Conclusions §4 (SBERT/LDA finding) |
+| Member 3 | Karen Coutinho  | Top-N Keyword Shift Analysis (`02_comparison.ipynb`,`NB02.ipynb`) | Intro §1 (requirements for a good solution), Methods §2.4 (keyword shift), Eval §3.4 (keyword shift results), Conclusions §4 (keyword shift finding) |
+| Member 4 | Guruanand Reddy | Cosine Distance Analysis (`NB02.ipynb.ipynb`)                | Intro §1 (dataset examples), Methods §2.5 (cosine distance), Eval §3.5 (cosine distance results), Conclusions §4 (cosine distance finding) |
+| Member 5 | Chang Gao       | PCA & UMAP Trajectory Visualisation (`03_pca_trajectory.ipynb`) | Abstract, Methods §2.6 (dimensionality reduction), Eval §3.6 (discussion & limitations), Conclusions §4 (opening & closing paragraphs) |
+
+
+
+### Data and Cloud files
+OneDrive main directory (University of Bristol institutional account access only): https://uob-my.sharepoint.com/:f:/g/personal/fx25224_bristol_ac_uk/IgAdwqaWLo6xS7KCRQTknVLPAaq16MTS3VqWvsqZVZdfQVM?e=p5WeAL
 
 The entire data with time label: https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDzMRQhPytASaF8S3e0vVnrAXcoae0Da-vz8gItPO36B9I?e=cJaeVh 
+
 The NLP data with time and technique label：https://uob-my.sharepoint.com/:x:/g/personal/fx25224_bristol_ac_uk/IQDakmgwzEzLT7eYQWwrlqfgARaJ7qcYnxv3-tBJCDbiGKk?e=RJxSNY
-The Overleaf report project's zip file: https://uob-my.sharepoint.com/:u:/r/personal/fx25224_bristol_ac_uk/Documents/tb2/AI%26text/CWdata/report_resource.zip?csf=1&web=1&e=Idp8ox
-# 
 
-# \### Team
+The Overleaf report zip file: https://uob-my.sharepoint.com/:u:/r/personal/fx25224_bristol_ac_uk/Documents/tb2/AI%26text/CWdata/report_resource.zip?csf=1&web=1&e=Idp8ox
 
-# 
 
-# | Rui Liu         | EDA, TF-IDF Representation | 01\_representation.ipynb |
-
-# | Dekai Fan       | SBERT \& LDA Representation | 01\_representation.ipynb |
-
-# | Karen Coutinho  | Top-N Keyword Shifts | 02\_comparison.ipynb |
-
-# | Guruanand Reddy | Cosine Distance | 02\_comparison.ipynb |
-
-# | Chang Gao       | PCA Trajectory Visualisation | 03\_pca\_trajectory.ipynb |
-
-# 
-
-# \### Dataset
-
-# \- Source: gfissore/arxiv-abstracts-2021 (HuggingFace)
-
-# \- Filter: cs.CL category (NLP papers only)
-
-# \- Approx. 50,000–80,000 abstracts after filtering
-
-# 
-
-# \### Design Axes
-
-# \- Axis 1 — Text Representation: TF-IDF Unigrams vs Bigrams vs SBERT vs LDA
-
-# \- Axis 2 — Comparison Method: Top-N Keyword Shifts vs Cosine Distance
-
-# 
-
-# \### Notebook Structure
-
-# | Notebook | Purpose |
-
-# |---|---|
-
-# | 00\_preprocessing.ipynb | Load, filter and clean the dataset |
-
-# | 01\_representation.ipynb | Build TF-IDF, SBERT and LDA representations |
-
-# | 02\_comparison.ipynb | Keyword shift and cosine distance analysis |
-
-# | 03\_pca\_trajectory.ipynb | PCA and UMAP trajectory visualisation |
-
-# | 04\_report.ipynb | Final comparison, evaluation and findings |
-
-# 
-
-# \### How to Run
-
-# 1\. Download the shared data folder and place files in `/data` and `/outputs`
-
-# 2\. Run notebooks in order: 00 → 01 → 02/03 → 04
 
